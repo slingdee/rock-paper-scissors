@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: rgb(51, 42, 42);
+}
+h1{
+  text-align: center;
+  color: rgb(51, 42, 42);
+  background-color: rgb(150, 209, 209);
+  padding: 10px 0;
+}
+#controls{
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  background-color: white;
+}
+#controls div{
+  display: flex;
+  flex-direction: column;
+}
+.choice{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  text-align: center;
+}
+button{
+  font-size: 2.5em;
+}
+.choice button:hover{
+cursor: pointer;
+}
