@@ -9,7 +9,7 @@
     "deploy": "git subtree push --prefix dist origin gh-pages",
     "test": "echo \"Error: no test specified\" && exit 1",
     "change-branch": "git checkout gh-pages && git merge main --no-edit",
-    "add-dist": "git add dist -f && git commit -m 'Deployment commit'",
+    "add-dist": "git add dist -f && git commit -m \"Deployment commit\"",
     "push-dist": "git subtree push --prefix dist origin gh-pages"
   },
   "repository": {
